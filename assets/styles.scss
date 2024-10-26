@@ -91,6 +91,7 @@ a:hover {
 .ap-nav ul li .ap-active {
     text-decoration: none;
     cursor: default;
+    font-weight: bold;
     color: #000 !important;
 }
 
@@ -144,6 +145,15 @@ a:hover {
     text-decoration: none;
 }
 
+.ap-experience-institute{
+    font-family: "DM Sans", sans-serif;
+    // font-size: 14px;
+    font-weight: 400;
+    color: #525252;
+    margin: 4px 0px 8px;
+
+}
+
 .ap-experience-year {
     font-family: "DM Sans", sans-serif;
     font-size: 14px;
@@ -151,6 +161,8 @@ a:hover {
     color: #525252;
     margin: 4px 0px 8px;
 }
+
+
 
 .ap-experience-excerpt {
     font-family: "DM Sans", sans-serif;
@@ -170,7 +182,8 @@ a:hover {
 .ap-experience-tags .ap-experience-chip, .ap-skill-tags .ap-skill-chip, .ap-project-tags .ap-project-chip{
     border: 1px solid $link;
     border-radius: 5px;
-    padding: 2px 4px;
+    padding: 4px 6px;
+    margin-right: 5px;
     color: $link;
     user-select: none;
 }
@@ -366,9 +379,9 @@ a:hover {
     margin: 40px 0px 20px;
     text-align: center;
 }
-
-.ap-social {
+.ap-social{
     text-align: center;
+    // border: 1px solid red;
 }
 
 .ap-social ul {
@@ -376,18 +389,18 @@ a:hover {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
 }
 
 .ap-social ul li {
-    float: left;
     font-family: "Inter", serif;
     font-weight: 400;
     font-size: 16px;
 }
 
 .ap-social ul li:after {
-    content: "/";
+    content: "|";
     padding: 0 5px;
 }
 
@@ -425,7 +438,7 @@ a:hover {
 }
 
 .ap-social-header ul li:after {
-    content: "/";
+    content: "|";
     padding: 0 5px;
 }
 
@@ -443,11 +456,12 @@ a:hover {
     color: $link;
 }
 
-.ap-copyright {
-    margin: 4px 0px;
+.ap-jekyll {
+    margin: 14px 0px;
     font-family: "Inter", serif;
     font-size: 14px;
     color: #464444;
+    text-align: center;
 }
 
 .ap-blog-post {
