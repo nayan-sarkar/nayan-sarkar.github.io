@@ -1,6 +1,8 @@
 ---
 ---
-{% if site.color-theme == "blue" %}
+{% if site.color-theme == "custom" %}
+$link: #6256CA;
+{% elsif site.color-theme == "blue" %}
 $link: #0099ff;
 {% elsif site.color-theme == "red" %}
 $link: #862B0D;
@@ -91,7 +93,6 @@ a:hover {
 .ap-nav ul li .ap-active {
     text-decoration: none;
     cursor: default;
-    font-weight: bold;
     color: #000 !important;
 }
 
