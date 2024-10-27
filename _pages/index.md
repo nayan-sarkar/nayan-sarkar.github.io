@@ -1,5 +1,5 @@
 ---
-title: About
+title: Personal Website
 layout: about
 permalink: "/"
 ---
